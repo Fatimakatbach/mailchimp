@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../WelcometoMailchip/Roboto/Roboto-Light.ttf');
+}
+
+.general{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    position: absolute; right: 80%;
+    width: 200px;
+    height: 200px;
+}
+.elresto{
+    position: absolute;left: 30%;
+    width: 30%;
+    height: 30%;
+
+}
+.formulario{
+
+
+}
+.papilista{
+    display: flex;
+
+}
+.bottom{
+    display: flex;
+
+}
+.boton{
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+.check{
+    margin-top: 20px;
+
+}
+.texto-check{
+    margin-left: 10px;
+}
+
