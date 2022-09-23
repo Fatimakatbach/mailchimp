@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../WelcometoMailchip/ejercicio2.css">
 </head>
 
-<body>
+<body class="cambioletra">
     <div class="general">
         <div class="logo">
             <img src="../WelcometoMailchip/Captura de pantalla 2022-09-21 150316.png" alt="logo">
@@ -19,25 +19,25 @@
             </div>
             <div>
                 <p>Find your people.Engage your customers.Build your brand.Do it all 
-                with Mailchimp's Marketing Plataform.Already have an account?<a href="#">Log in</a></p>
+                with Mailchimp's Marketing Plataform.Already have an account?<a href="#" class="login">Log in</a></p>
            </div>
            <div class="formulario"> 
                 <form action="Email">
                     <label for="">
-                        <p>Email</p>
-                        <input type="email">
+                        <p class="email">Email</p>
+                        <input type="text" name="email" id="email" >
                     </label>
                 </form>
                 <form action="Username">
                     <label for="">
                         <p>Username</p>
-                        <input type="text">
+                        <input type="text" name="nombre" id="nombre"  minlength="5" maxlength="10" required>
                     </label>
                 </form>
                 <form action="Password">
                     <label for="">
                         <p>Password</p>
-                        <input type="number">
+                        <input type="password" name="pass" id="pass" minlength="8" required>
                     </label>
                 </form>
               </div>
@@ -58,12 +58,12 @@
                     </div>
                     <div class="bottom">
                         <div class="boton">
-                            <button>Sign Up</button>
+                            <button type="submit">Sign Up</button>
                         </div>
                         <div class="check">
                             <input type="checkbox" name="">
                         </div>
-                        <div>
+                        <div class="texto-check">
                             <p>I don't want to recive email about new Mailchimp products, best practices, or special offers.</p>
                         </div>
                     </div>
